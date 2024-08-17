@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(180, 180, 180);
+/* }nav */
+.nav{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: turquoise;
+    color: white;
+    font-family: Arial,sans-serif;
+    margin: 10px;
+
+}
+/* Container */
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Arial,sans-serif;
+    height: 420px;
+    justify-content: space-around;
+
+}
+
+/* Aside */
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0PX 5PX 0PX 10PX;
+}
+#card_1{
+    background-color: rgb(175, 161, 175);
+    height: 50%;
+    margin-bottom: 5px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+#card_2{
+    background-color: rgb(56, 168, 56);
+    height: 50%;
+    margin-top: 5px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+/* main */
+main{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 5px;
+
+}
+.Main_Content{
+    background-color: rgb(202, 129, 34);
+    height: 80%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.Extra_Content{
+    background-color: rgb(109, 105, 105);
+    height: 30%;
+    margin-top: 5px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+/* Sub_Content */
+.sub-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px 0px 10px;
+
+    
+}
+#Image{
+    background-color: rgb(34, 161, 108);
+    width: 70%;
+    margin-right: 5px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+#Posts{
+    background-color: rgb(255, 167, 243);
+    width: 30%;
+    margin-left: 5px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+/* Footer */
+footer{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: rgb(7, 100, 91);
+    color: white;
+    font-family: Arial,sans-serif;
+    margin: 10px;
+}
